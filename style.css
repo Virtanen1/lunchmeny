@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0;
+    padding:0;
+
+}
+body {
+    height: 100vh;
+    background-color: #ffe5d9;
+    
+}
+#top {
+    display: flex;
+    justify-content: center;
+    font-family: 'Neonderthaw', cursive;
+    color: #ceb9da;
+    font-size: 1.5rem;
+}
+.mat{
+    display: flex;
+    flex-direction: column;
+     margin-top: 80px;
+     color: #4E4C67;
+   
+     border-radius: 20px;
+     width: 20%;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Fjalla One', sans-serif;
+    
+}
+#container {
+    display: flex;
+justify-content: center;
+}
+
+.picture {   
+margin-top: 2.2rem;
+    width: 600px;
+    height: 40%
+}
+@media (max-width: 1000px) {
+    .picture{
+        width: 400px;
+        height:200px
+    }
+    .mat{
+        width: 100%;
+    }
+
+}
+
